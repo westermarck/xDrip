@@ -13,6 +13,8 @@ public class XdripNotificationCompat extends NotificationCompat {
 
     @TargetApi(Build.VERSION_CODES.O)
     public static Notification build(NotificationCompat.Builder builder) {
+        // If Android version is 8 (<code>android.os.Build.VERSION_CODES.O</code>)
+        // or higher use notifiaction channels if the user have enabled it
         if ((Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O)) {
             if (Pref.getBooleanDefaultFalse("use_notification_channels")) {
                 // get dynamic channel based on contents of the builder
@@ -29,7 +31,7 @@ public class XdripNotificationCompat extends NotificationCompat {
             }
             return builder.build();
         } else {
-            return builder.build(); // standard pre-oreo behaviour
+            return builder.build(); // standard pre-oreo (pre Android 8) behaviour
         }
     }
 }
