@@ -4,13 +4,13 @@
     <string name="title_activity_bluetooth_scan">Bluetoothsökning</string>
     <string name="connected">Ansluten</string>
     <string name="disconnected">Frånkopplad</string>
-    <string name="menu_scan">Avsök</string>
+    <string name="menu_scan">Sök</string>
     <string name="menu_stop">Stoppa</string>
-    <string name="menu_refresh">Förnya</string>
+    <string name="menu_refresh">Uppdatera</string>
     <string name="menu_export_database">Exportera databas</string>
-    <string name="menu_export_csv_sidiary">Exporta CSV (kommaseparerade värden)</string>
+    <string name="menu_export_csv_sidiary">Exportera CSV (kommaseparerade värden)</string>
     <string name="menu_import_db">Importera databas</string>
-    <string name="error_bluetooth_not_supported">Fel: Denna enhet har inte stöd för Bluetooth</string>
+    <string name="error_bluetooth_not_supported">Fel: Den här enheten har inte stöd för Bluetooth</string>
     <string name="unknown_device">Okänd enhet</string>
     <string name="connecting_to_device">Ansluter till enhet</string>
     <string name="title_activity_raw_data_table">Rådatatabell</string>
@@ -28,7 +28,7 @@
     <string name="ok">Ok</string>
     <string name="cancel">Avbryt</string>
     <string name="no">Nej</string>
-    <string name="pref_sensor_location_dont_ask_again"> Fråga inte i framtiden</string>
+    <string name="pref_sensor_location_dont_ask_again"> Fråga inte i igen</string>
     <string name="title_activity_error">"Fel- och händelselista"</string>
     <string name="title_activity_main">Huvudaktivitet</string>
     <string name="title_activity_fake_numbers">Fejksiffror</string>
@@ -37,9 +37,9 @@
     <string name="title_activity_calibration_override">Åsidosätt kalibrering</string>
     <string name="pref_header_cloud_storage">Molnlagring</string>
     <string name="auto_configure_title">Autoinställning</string>
-    <string name="prefs_auto_config_summary">Autokonfigurera med hjälp av en streckkod.</string>
-    <string name="scan_share2_barcode">Avsök en delningsstreckkod</string>
-    <string name="pref_share2_scan_barcode_summary">Eller skanna streckkoden med din Share-mottagare</string>
+    <string name="prefs_auto_config_summary">Autoinställning med hjälp av streckkod.</string>
+    <string name="scan_share2_barcode">Skanna en delningsstreckkod</string>
+    <string name="pref_share2_scan_barcode_summary">Eller skanna streckkoden med din mottagare</string>
     <!-- MongoDB Settings -->
     <string name="pref_dialog_mongodb_uri">URI till MongoDB\"</string>
     <string name="pref_message_mongodb_uri">Ersätt exempeldatan i {} med riktiga värden</string>
@@ -62,17 +62,17 @@
     <string name="wifi_recievers_dialog_title">Ange IP-adresser och portar för mottagare (inklusive mongodb-adresser om det behövs)</string>
     <!-- Location Settings -->
     <string name="location_not_found_title">Plats är inte aktiverad</string>
-    <string name="location_not_found_message">För att Bluetooth ska fungera med nyare enheter, måste platsdata vara aktiverat. xDrip sparar inte den plats och det kan stängas av efter att enheten har kopplats.</string>
+    <string name="location_not_found_message">För att Bluetooth ska fungera med nyare enheter, måste platsdata vara aktiverat. xDrip lagrar och använder inte din platsinformation annat än om du använder funktionen för Nödmeddelande.</string>
     <string name="location_yes">Aktivera</string>
     <!-- broadcast settings -->
     <string name="pref_title_broadcast_enabled">Lokal delgivning</string>
     <string name="pref_summary_broadcast_enabled">Aktivera lokal delgivning av data så andra program (t.ex.. Nightwatch) kan ta del av värden</string>
     <string name="title_activity_share_test">Testa delning</string>
     <!-- pebble settings -->
-    <string name="pref_pebble_trend_watchface">Använd Pebble Trend Watchface</string>
+    <string name="pref_pebble_trend_watchface">Använd Watchface till Pebble Trend</string>
     <string name="pref_summary_pebble_trend_watchface">Använd/installera Pebble Trend Watchface (icke-stabil)</string>
     <string name="pref_pebble_display_trend">Visa trend</string>
-    <string name="pref_summary_display_trend">Visa BG-trenden på xDrip Pebbles urtavla.</string>
+    <string name="pref_summary_display_trend">Visa BG-trenden från xDrip på Pebbles urtavla.</string>
     <string name="pref_pebble_display_high_line">Visa Hög line</string>
     <string name="pref_pebble_display_low_line">Visa Låg linje</string>
     <!-- Amazfit Settings -->
@@ -81,14 +81,14 @@
     <string name="taskerConfiguration">Inställning av Tasker</string>
     <string name="add_widget">Lägg till widget</string>
     <string name="title_activity_alert_list">Larmlista</string>
-    <string name="speaktreatment">Läs ut behandling</string>
+    <string name="speaktreatment">Läs upp behandling</string>
     <string name="title_activity_update">xDrip+-uppdatering</string>
     <string name="title_activity_display_qrcode">Dela inställningar med en QR-kod</string>
     <string name="title_activity_send_feed_back">Skicka feedback till Jamorham</string>
     <string name="title_activity_maps">Parakeet-karta</string>
     <string name="title_activity_display_preferences">Visa inställningar</string>
     <string name="export_submenu">Importera / Exportera inställningar</string>
-    <string name="action_resend_to_watch">Skicka glukos till klockan igen</string>
+    <string name="action_resend_to_watch">Skicka glukosvärde till klockan igen</string>
     <string name="action_open_watch_setting">Öppna inställningar i Wear</string>
     <string name="erase">Radera</string>
     <string name="interface_tips_from_start">Tipsen i gränssnittet kommer att visas igen</string>
@@ -135,7 +135,7 @@
     <string name="switch_parakeet_to_setup_mode">Ställ Parakeet i inställningsläge</string>
     <string name="view_events_log">Visa händelselogg</string>
     <string name="share_config_via_qr_code">Dela inställningar med QR-kod</string>
-    <string name="check_for_updated_version">Sök eftter uppdateringar</string>
+    <string name="check_for_updated_version">Sök eftter uppdatering</string>
     <string name="send_feedback_to_developer">Skicka feedback till utvecklare</string>
     <string name="home_screen">Startskärm</string>
     <string name="calibration_graph">Kalibreringsgraf</string>
@@ -286,7 +286,7 @@
     <string name="load_all_settings_from_sdcard">Läs in samtliga inställningar från SD-kort</string>
     <string name="delete_any_settings_on_sdcard">Ta bort samtliga inställningar på SD-kort</string>
     <string name="use_qr_codes_to_transfer_settings_using_settings_auto_configure_feature"><![CDATA[Använd QR-koder för att överföra inställningar från av Inställningar&gt; Automatisk justering funktion]]></string>
-    <string name="xdrip_plus_security_key_settings_only">xDrip+ säkerhetsnyckelinställningar endast</string>
+    <string name="xdrip_plus_security_key_settings_only">Endast xDrip+ säkerhetsnyckelinställningar</string>
     <string name="show_general_and_collection_settings">Visa allmänna och samlingsinställningar</string>
     <string name="copy_all_settings">Kopiera alla inställningar</string>
     <string name="sensor_is_ready_please_enter_double_calibration">Sensorn är redo, gör en dubbelkalibrering</string>
@@ -434,7 +434,7 @@
     <string name="sync_using_custom_security_key">Synkronisera med egen säkerhetsnyckel</string>
     <string name="handset_group_security_key">Telefon - gruppssäkerhetsnyckel</string>
     <string name="handset_sync_grouping_key">Telefon -  grupperingsnyckel</string>
-    <string name="alert_name_colon">Larmamn:</string>
+    <string name="alert_name_colon">Larmnamn:</string>
     <string name="threshold_colon">Gräns:</string>
     <string name="default_snooze_colon">Standardsnooze:</string>
     <string name="re_raise_every_x_minutes_if_unaknowledged">Återaktivera var\n x minut(er) om\n ej bekräftad:</string>
